@@ -117,8 +117,8 @@ main>section {
 
 .product-options {
     padding-top: 20px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
     justify-content: center;
 }
 
@@ -175,6 +175,7 @@ main>section {
     }
 
     .product-options {
+        display: flex;
         flex-direction: column;
     }
 }

@@ -1,7 +1,7 @@
 import { useImageImport } from "../hooks/image-import";
 
 export function Header() {
-    const logo = useImageImport("/assets/img/logo.png");
+    const logo = useImageImport("logo");
 
     return (
         <>

@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
     base: 'https://delt4d.github.io/Xhopii/',
     plugins: [react()],
+    build: {
+        outDir: 'dist',
+    },
 });
